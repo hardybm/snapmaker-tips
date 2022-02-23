@@ -2,7 +2,7 @@
 
 ```
 ;Auto Level
-G029 P11 ;11x11 grid
+G1029 P11 ;11x11 grid
 G1029 A ;start leveling
 
 G91; relative positioning for Z offset move
