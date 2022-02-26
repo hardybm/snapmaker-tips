@@ -15,4 +15,9 @@ G1029 D0 ;end leveling
 
 G0 Z10; move up 10mm
 G90; restore absolute positioning
+
+G1029 D0.05; after leveling raise the level 0.05 
 ```
+
+
+Reference https://snapmaker.github.io/Documentation/gcode/G1029-abl
