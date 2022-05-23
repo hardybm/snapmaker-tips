@@ -15,7 +15,11 @@ G1029 D0 ;end leveling
 
 G0 Z10; move up 10mm
 G90; restore absolute positioning
+```
 
+
+IF you need to adjust the Z height later (say switching to a shorter nozzle)
+```
 G1029 D0.05; after leveling raise the level 0.05 
 ```
 
