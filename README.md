@@ -39,7 +39,6 @@ There are two main ways to use the snapmaker laser engraver.
 
 2) An existing item that needs precise positioning
 - in Lightburn->Edit->Settings->'Ignore out-of-bounds shapes' if possible - SET OFF
-- set Lightburn to user origin and set the refence point (center)
-- orient your design in lightburn so it is centered on 0,0 (3/4 should be off the build plate ("¯\_(ツ)_/¯ "))
+- set Lightburn to current position and set the refence point (center)
 - set the work origin to the center of where you want the burn
-- run boundary only works in this mode if the object center is at 0,0 in lightburn
+- run boundary works
