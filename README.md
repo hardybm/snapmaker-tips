@@ -30,14 +30,14 @@ Reference https://snapmaker.github.io/Documentation/gcode/G1029-abl
 
 There are two main ways to use the snapmaker laser engraver.
 1) A big sheet referenced against the front left corner
-2) An existing item that needs precise positioning
+1) An existing item that needs precise positioning
 
-1) A big sheet referenced against the front left corner (absolute positioning)
+###A big sheet referenced against the front left corner (absolute positioning)
 - Set lightburn to absolute coordinates
 - Send the job to the snapmaker 
 - on the snapmaker set the origin to the bottom left corner (instead of the center where it starts)
 
-2) An existing item that needs precise positioning
+###An existing item that needs precise positioning
 - in Lightburn->Edit->Settings->'Ignore out-of-bounds shapes' if possible - SET OFF
 - set Lightburn to current position and set the refence point (center)
 - set the work origin to the center of where you want the burn
